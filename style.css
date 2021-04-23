@@ -11,15 +11,16 @@ body {
 }
 
 .my-header {
-    height: 6rem;
+    min-height: 5rem;
     background-color: #2C3E50;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 .section-1 {
-    margin-top: 6rem;
-    min-height: 40rem;
+    margin-top: 5rem;
+    min-height: 37rem;
     background-color: #1ABC9C;
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 .section-3 {
-    min-height: 45rem;
+    min-height: 33rem;
     background-color: #1ABC9C;
 }
 
