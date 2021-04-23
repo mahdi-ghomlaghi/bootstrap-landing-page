@@ -48,3 +48,15 @@ body {
     height: 5rem;
     background-color: #1A252F;
 }
+
+input {
+    outline: none;
+    border: none;
+
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: rgba(13, 23, 39, 0.747);
+    font-weight: 700;
+}
